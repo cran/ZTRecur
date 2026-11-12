@@ -1,0 +1,39 @@
+Package: ZTRecur
+Type: Package
+Title: Analysis for Zero-Truncated Recurrent Event Data
+Version: 0.2.1
+Date: 2026-10-17
+Authors@R: c(
+    person("Anqi A.", "Chen", email = "anqi6@ualberta.ca", role = c("aut", "cre")),
+    person("X. Joan", "Hu", role = "aut"),
+    person("Yi", "Xiong", role = "aut"),
+    person("Rhonda J.", "Rosychuk", role = "aut")
+  )
+Description: Provides nonparametric and Cox-type regression methods for analyzing
+  zero-truncated recurrent event data with supplementary information. Key features include 
+  estimating rate and mean functions under nonparametric marginal models; estimating time-constant 
+  regression coefficients under standard and stratified Andersen-Gill (AG) models; and estimating 
+  time-varying covariate effects under stratified and nonstratified Cox-type models. Standard 
+  errors (SEs) are estimated using sandwich-based variance estimators for nonstratified models and 
+  resampling-based procedures for stratified models. For further details, see Chen, Hu, and 
+  Rosychuk (2026) <doi:10.1214/25-AOAS2130>, Chen et al. (2026) <doi:10.1002/cjs.70064>,
+  and Chen, Hu, and Rosychuk (2026) <doi:10.48550/arXiv.2607.26210>.
+License: GPL (>= 2)
+Encoding: UTF-8
+Imports: Rcpp (>= 1.0.0), dplyr, graphics, grDevices, stats
+LinkingTo: Rcpp, RcppArmadillo
+NeedsCompilation: yes
+ByteCompile: yes
+Depends: R (>= 3.5)
+LazyData: true
+Config/roxygen2/version: 8.0.0
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Packaged: 2026-10-27 10:13:53 UTC; AnqiChen
+Author: Anqi A. Chen [aut, cre],
+  X. Joan Hu [aut],
+  Yi Xiong [aut],
+  Rhonda J. Rosychuk [aut]
+Maintainer: Anqi A. Chen <anqi6@ualberta.ca>
+Repository: CRAN
+Date/Publication: 2026-11-12 11:10:10 UTC
